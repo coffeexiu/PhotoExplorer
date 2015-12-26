@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF7D90301C24F43300654258 /* DefaultBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7D902F1C24F43300654258 /* DefaultBackgroundImage.png */; };
+		DF7D90341C25849E00654258 /* huaduobg.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7D90331C25849E00654258 /* huaduobg.png */; };
+		DF7D90381C26891A00654258 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D90371C26891A00654258 /* AssetsLibrary.framework */; };
+		DF84FEA21C2AB9F900D7CF9E /* DayPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84FEA11C2AB9F900D7CF9E /* DayPictureCell.m */; };
+		DF84FEA51C2ABAC300D7CF9E /* PictureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84FEA41C2ABAC300D7CF9E /* PictureInfo.m */; };
+		DF84FEA71C2ACB1F00D7CF9E /* DayPictureCellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DF84FEA61C2ACB1F00D7CF9E /* DayPictureCellBackground.png */; };
 		DF8731751C24251500B755FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8731741C24251500B755FB /* main.m */; };
 		DF8731781C24251500B755FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8731771C24251500B755FB /* AppDelegate.m */; };
-		DF87317B1C24251500B755FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF87317A1C24251500B755FB /* ViewController.m */; };
-		DF87317E1C24251500B755FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF87317C1C24251500B755FB /* Main.storyboard */; };
 		DF8731801C24251500B755FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF87317F1C24251500B755FB /* Assets.xcassets */; };
 		DF8731831C24251500B755FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8731811C24251500B755FB /* LaunchScreen.storyboard */; };
 		DF87318E1C24251500B755FB /* PictureManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF87318D1C24251500B755FB /* PictureManagerTests.m */; };
 		DF8731991C24251500B755FB /* PictureManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8731981C24251500B755FB /* PictureManagerUITests.m */; };
+		DF8731A81C2425D800B755FB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8731A71C2425D800B755FB /* RootViewController.m */; };
+		DF8731AE1C24316000B755FB /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8731AD1C24316000B755FB /* BasicViewController.m */; };
+		DF8731B11C24318900B755FB /* TimeAxisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8731B01C24318900B755FB /* TimeAxisViewController.m */; };
+		DF8731B31C243F1A00B755FB /* 1-watch.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8731B21C243F1A00B755FB /* 1-watch.png */; };
+		DF8731B51C243FB700B755FB /* 1-watch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8731B41C243FB700B755FB /* 1-watch@2x.png */; };
+		DF8731B71C24400C00B755FB /* 1-watch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8731B61C24400C00B755FB /* 1-watch@3x.png */; };
+		DF8731BA1C2442E500B755FB /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8731B91C2442E500B755FB /* ScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF7D902F1C24F43300654258 /* DefaultBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultBackgroundImage.png; sourceTree = "<group>"; };
+		DF7D90331C25849E00654258 /* huaduobg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huaduobg.png; sourceTree = "<group>"; };
+		DF7D90371C26891A00654258 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DF84FEA01C2AB9F900D7CF9E /* DayPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayPictureCell.h; sourceTree = "<group>"; };
+		DF84FEA11C2AB9F900D7CF9E /* DayPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayPictureCell.m; sourceTree = "<group>"; };
+		DF84FEA31C2ABAC300D7CF9E /* PictureInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureInfo.h; sourceTree = "<group>"; };
+		DF84FEA41C2ABAC300D7CF9E /* PictureInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureInfo.m; sourceTree = "<group>"; };
+		DF84FEA61C2ACB1F00D7CF9E /* DayPictureCellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DayPictureCellBackground.png; sourceTree = "<group>"; };
 		DF8731701C24251400B755FB /* PictureManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8731741C24251500B755FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF8731761C24251500B755FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF8731771C24251500B755FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF8731791C24251500B755FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF87317A1C24251500B755FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DF87317D1C24251500B755FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF87317F1C24251500B755FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF8731821C24251500B755FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF8731841C24251500B755FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +67,17 @@
 		DF8731941C24251500B755FB /* PictureManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8731981C24251500B755FB /* PictureManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureManagerUITests.m; sourceTree = "<group>"; };
 		DF87319A1C24251500B755FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8731A61C2425D800B755FB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DF8731A71C2425D800B755FB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DF8731AC1C24316000B755FB /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		DF8731AD1C24316000B755FB /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		DF8731AF1C24318900B755FB /* TimeAxisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeAxisViewController.h; path = ../TimeAxisViewController.h; sourceTree = "<group>"; };
+		DF8731B01C24318900B755FB /* TimeAxisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeAxisViewController.m; path = ../TimeAxisViewController.m; sourceTree = "<group>"; };
+		DF8731B21C243F1A00B755FB /* 1-watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-watch.png"; sourceTree = "<group>"; };
+		DF8731B41C243FB700B755FB /* 1-watch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-watch@2x.png"; sourceTree = "<group>"; };
+		DF8731B61C24400C00B755FB /* 1-watch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-watch@3x.png"; sourceTree = "<group>"; };
+		DF8731B81C2442E500B755FB /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		DF8731B91C2442E500B755FB /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7D90381C26891A00654258 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +106,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF7D902D1C24F11D00654258 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DF84FEA61C2ACB1F00D7CF9E /* DayPictureCellBackground.png */,
+				DF7D90331C25849E00654258 /* huaduobg.png */,
+				DF7D902F1C24F43300654258 /* DefaultBackgroundImage.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		DF7D902E1C24F13B00654258 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				DF8731B61C24400C00B755FB /* 1-watch@3x.png */,
+				DF8731B41C243FB700B755FB /* 1-watch@2x.png */,
+				DF8731B21C243F1A00B755FB /* 1-watch.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
 		DF8731671C24251400B755FB = {
 			isa = PBXGroup;
 			children = (
+				DF7D90371C26891A00654258 /* AssetsLibrary.framework */,
+				DF7D902E1C24F13B00654258 /* icons */,
+				DF7D902D1C24F11D00654258 /* images */,
+				DF8731A61C2425D800B755FB /* RootViewController.h */,
+				DF8731A71C2425D800B755FB /* RootViewController.m */,
 				DF8731721C24251400B755FB /* PictureManager */,
 				DF87318C1C24251500B755FB /* PictureManagerTests */,
 				DF8731971C24251500B755FB /* PictureManagerUITests */,
@@ -103,9 +156,16 @@
 			children = (
 				DF8731761C24251500B755FB /* AppDelegate.h */,
 				DF8731771C24251500B755FB /* AppDelegate.m */,
-				DF8731791C24251500B755FB /* ViewController.h */,
-				DF87317A1C24251500B755FB /* ViewController.m */,
-				DF87317C1C24251500B755FB /* Main.storyboard */,
+				DF8731AF1C24318900B755FB /* TimeAxisViewController.h */,
+				DF8731B01C24318900B755FB /* TimeAxisViewController.m */,
+				DF84FEA01C2AB9F900D7CF9E /* DayPictureCell.h */,
+				DF84FEA11C2AB9F900D7CF9E /* DayPictureCell.m */,
+				DF84FEA31C2ABAC300D7CF9E /* PictureInfo.h */,
+				DF84FEA41C2ABAC300D7CF9E /* PictureInfo.m */,
+				DF8731B81C2442E500B755FB /* ScrollView.h */,
+				DF8731B91C2442E500B755FB /* ScrollView.m */,
+				DF8731AC1C24316000B755FB /* BasicViewController.h */,
+				DF8731AD1C24316000B755FB /* BasicViewController.m */,
 				DF87317F1C24251500B755FB /* Assets.xcassets */,
 				DF8731811C24251500B755FB /* LaunchScreen.storyboard */,
 				DF8731841C24251500B755FB /* Info.plist */,
@@ -246,9 +306,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8731B51C243FB700B755FB /* 1-watch@2x.png in Resources */,
+				DF8731B71C24400C00B755FB /* 1-watch@3x.png in Resources */,
+				DF84FEA71C2ACB1F00D7CF9E /* DayPictureCellBackground.png in Resources */,
+				DF8731B31C243F1A00B755FB /* 1-watch.png in Resources */,
 				DF8731831C24251500B755FB /* LaunchScreen.storyboard in Resources */,
 				DF8731801C24251500B755FB /* Assets.xcassets in Resources */,
-				DF87317E1C24251500B755FB /* Main.storyboard in Resources */,
+				DF7D90341C25849E00654258 /* huaduobg.png in Resources */,
+				DF7D90301C24F43300654258 /* DefaultBackgroundImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF87317B1C24251500B755FB /* ViewController.m in Sources */,
+				DF8731BA1C2442E500B755FB /* ScrollView.m in Sources */,
 				DF8731781C24251500B755FB /* AppDelegate.m in Sources */,
 				DF8731751C24251500B755FB /* main.m in Sources */,
+				DF8731AE1C24316000B755FB /* BasicViewController.m in Sources */,
+				DF8731B11C24318900B755FB /* TimeAxisViewController.m in Sources */,
+				DF8731A81C2425D800B755FB /* RootViewController.m in Sources */,
+				DF84FEA51C2ABAC300D7CF9E /* PictureInfo.m in Sources */,
+				DF84FEA21C2AB9F900D7CF9E /* DayPictureCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF87317C1C24251500B755FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF87317D1C24251500B755FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF8731811C24251500B755FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -499,6 +561,7 @@
 				DF87319F1C24251500B755FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF8731A01C24251500B755FB /* Build configuration list for PBXNativeTarget "PictureManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +570,7 @@
 				DF8731A21C24251500B755FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF8731A31C24251500B755FB /* Build configuration list for PBXNativeTarget "PictureManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +579,7 @@
 				DF8731A51C24251500B755FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
