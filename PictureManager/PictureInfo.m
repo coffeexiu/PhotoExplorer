@@ -13,7 +13,7 @@
 -(id)initWithDictionary:(NSDictionary *)dict
 {
     if (self = [super init]) {
-        
+        _pictureHeight = [[dict objectForKey:@"height"] intValue];
     }
     return self;
 }
