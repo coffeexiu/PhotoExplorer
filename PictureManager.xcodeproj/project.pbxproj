@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3FF19C1C2EA2A100C55D84 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3FF19B1C2EA2A100C55D84 /* libiconv.tbd */; };
+		DF3FF1C71C2EB15700C55D84 /* libdsm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3FF1B51C2EB15700C55D84 /* libdsm.a */; };
+		DF3FF1C81C2EB15700C55D84 /* libtasn1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3FF1B61C2EB15700C55D84 /* libtasn1.a */; };
+		DF3FF1C91C2EB15700C55D84 /* TONetBIOSNameService.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF1B81C2EB15700C55D84 /* TONetBIOSNameService.m */; };
+		DF3FF1CA1C2EB15700C55D84 /* TONetBIOSNameServiceEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF1BA1C2EB15700C55D84 /* TONetBIOSNameServiceEntry.m */; };
+		DF3FF1CB1C2EB15700C55D84 /* TOSMBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF1BD1C2EB15700C55D84 /* TOSMBConstants.m */; };
+		DF3FF1CC1C2EB15700C55D84 /* TOSMBExifDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF1BF1C2EB15700C55D84 /* TOSMBExifDownloadTask.m */; };
+		DF3FF1CD1C2EB15700C55D84 /* TOSMBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF1C11C2EB15700C55D84 /* TOSMBSession.m */; };
+		DF3FF1CE1C2EB15700C55D84 /* TOSMBSessionDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF1C31C2EB15700C55D84 /* TOSMBSessionDownloadTask.m */; };
+		DF3FF1CF1C2EB15700C55D84 /* TOSMBSessionFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF1C51C2EB15700C55D84 /* TOSMBSessionFile.m */; };
+		DF3FF2001C2EC55F00C55D84 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF1FF1C2EC55F00C55D84 /* LoadingView.m */; };
+		DF3FF2031C2ED84500C55D84 /* SeverListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF2021C2ED84500C55D84 /* SeverListViewController.m */; };
+		DF3FF2051C2FE53000C55D84 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3FF2041C2FE53000C55D84 /* AVFoundation.framework */; };
+		DF3FF2081C2FF02200C55D84 /* BackgroundRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF2071C2FF02200C55D84 /* BackgroundRunner.m */; };
 		DF7D90301C24F43300654258 /* DefaultBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7D902F1C24F43300654258 /* DefaultBackgroundImage.png */; };
 		DF7D90341C25849E00654258 /* huaduobg.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7D90331C25849E00654258 /* huaduobg.png */; };
-		DF7D90381C26891A00654258 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D90371C26891A00654258 /* AssetsLibrary.framework */; };
 		DF84FEA21C2AB9F900D7CF9E /* DayPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84FEA11C2AB9F900D7CF9E /* DayPictureCell.m */; };
 		DF84FEA51C2ABAC300D7CF9E /* PictureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84FEA41C2ABAC300D7CF9E /* PictureInfo.m */; };
 		DF84FEA71C2ACB1F00D7CF9E /* DayPictureCellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DF84FEA61C2ACB1F00D7CF9E /* DayPictureCellBackground.png */; };
@@ -26,6 +39,8 @@
 		DF8731B51C243FB700B755FB /* 1-watch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8731B41C243FB700B755FB /* 1-watch@2x.png */; };
 		DF8731B71C24400C00B755FB /* 1-watch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8731B61C24400C00B755FB /* 1-watch@3x.png */; };
 		DF8731BA1C2442E500B755FB /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8731B91C2442E500B755FB /* ScrollView.m */; };
+		DF8B9A641C36E50B0000B911 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8B9A631C36E50B0000B911 /* image.png */; };
+		DFA35B421C32C43700C8C28F /* UpdateMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA35B411C32C43700C8C28F /* UpdateMessageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +61,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF3FF19B1C2EA2A100C55D84 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DF3FF1AB1C2EB15700C55D84 /* bdsm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bdsm.h; sourceTree = "<group>"; };
+		DF3FF1AC1C2EB15700C55D84 /* libtasn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libtasn1.h; sourceTree = "<group>"; };
+		DF3FF1AD1C2EB15700C55D84 /* netbios_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netbios_defs.h; sourceTree = "<group>"; };
+		DF3FF1AE1C2EB15700C55D84 /* netbios_ns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netbios_ns.h; sourceTree = "<group>"; };
+		DF3FF1AF1C2EB15700C55D84 /* smb_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smb_defs.h; sourceTree = "<group>"; };
+		DF3FF1B01C2EB15700C55D84 /* smb_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smb_file.h; sourceTree = "<group>"; };
+		DF3FF1B11C2EB15700C55D84 /* smb_session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smb_session.h; sourceTree = "<group>"; };
+		DF3FF1B21C2EB15700C55D84 /* smb_share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smb_share.h; sourceTree = "<group>"; };
+		DF3FF1B31C2EB15700C55D84 /* smb_stat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smb_stat.h; sourceTree = "<group>"; };
+		DF3FF1B41C2EB15700C55D84 /* smb_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smb_types.h; sourceTree = "<group>"; };
+		DF3FF1B51C2EB15700C55D84 /* libdsm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdsm.a; sourceTree = "<group>"; };
+		DF3FF1B61C2EB15700C55D84 /* libtasn1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtasn1.a; sourceTree = "<group>"; };
+		DF3FF1B71C2EB15700C55D84 /* TONetBIOSNameService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TONetBIOSNameService.h; sourceTree = "<group>"; };
+		DF3FF1B81C2EB15700C55D84 /* TONetBIOSNameService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TONetBIOSNameService.m; sourceTree = "<group>"; };
+		DF3FF1B91C2EB15700C55D84 /* TONetBIOSNameServiceEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TONetBIOSNameServiceEntry.h; sourceTree = "<group>"; };
+		DF3FF1BA1C2EB15700C55D84 /* TONetBIOSNameServiceEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TONetBIOSNameServiceEntry.m; sourceTree = "<group>"; };
+		DF3FF1BB1C2EB15700C55D84 /* TOSMBClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOSMBClient.h; sourceTree = "<group>"; };
+		DF3FF1BC1C2EB15700C55D84 /* TOSMBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOSMBConstants.h; sourceTree = "<group>"; };
+		DF3FF1BD1C2EB15700C55D84 /* TOSMBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOSMBConstants.m; sourceTree = "<group>"; };
+		DF3FF1BE1C2EB15700C55D84 /* TOSMBExifDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOSMBExifDownloadTask.h; sourceTree = "<group>"; };
+		DF3FF1BF1C2EB15700C55D84 /* TOSMBExifDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOSMBExifDownloadTask.m; sourceTree = "<group>"; };
+		DF3FF1C01C2EB15700C55D84 /* TOSMBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOSMBSession.h; sourceTree = "<group>"; };
+		DF3FF1C11C2EB15700C55D84 /* TOSMBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOSMBSession.m; sourceTree = "<group>"; };
+		DF3FF1C21C2EB15700C55D84 /* TOSMBSessionDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOSMBSessionDownloadTask.h; sourceTree = "<group>"; };
+		DF3FF1C31C2EB15700C55D84 /* TOSMBSessionDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOSMBSessionDownloadTask.m; sourceTree = "<group>"; };
+		DF3FF1C41C2EB15700C55D84 /* TOSMBSessionFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOSMBSessionFile.h; sourceTree = "<group>"; };
+		DF3FF1C51C2EB15700C55D84 /* TOSMBSessionFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOSMBSessionFile.m; sourceTree = "<group>"; };
+		DF3FF1FE1C2EC55F00C55D84 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		DF3FF1FF1C2EC55F00C55D84 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		DF3FF2011C2ED84500C55D84 /* SeverListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeverListViewController.h; sourceTree = "<group>"; };
+		DF3FF2021C2ED84500C55D84 /* SeverListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeverListViewController.m; sourceTree = "<group>"; };
+		DF3FF2041C2FE53000C55D84 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF3FF2061C2FF02200C55D84 /* BackgroundRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundRunner.h; sourceTree = "<group>"; };
+		DF3FF2071C2FF02200C55D84 /* BackgroundRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundRunner.m; sourceTree = "<group>"; };
 		DF7D902F1C24F43300654258 /* DefaultBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultBackgroundImage.png; sourceTree = "<group>"; };
 		DF7D90331C25849E00654258 /* huaduobg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huaduobg.png; sourceTree = "<group>"; };
-		DF7D90371C26891A00654258 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		DF84FEA01C2AB9F900D7CF9E /* DayPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayPictureCell.h; sourceTree = "<group>"; };
 		DF84FEA11C2AB9F900D7CF9E /* DayPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayPictureCell.m; sourceTree = "<group>"; };
 		DF84FEA31C2ABAC300D7CF9E /* PictureInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureInfo.h; sourceTree = "<group>"; };
@@ -78,6 +127,9 @@
 		DF8731B61C24400C00B755FB /* 1-watch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-watch@3x.png"; sourceTree = "<group>"; };
 		DF8731B81C2442E500B755FB /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
 		DF8731B91C2442E500B755FB /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
+		DF8B9A631C36E50B0000B911 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		DFA35B401C32C43700C8C28F /* UpdateMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateMessageView.h; sourceTree = "<group>"; };
+		DFA35B411C32C43700C8C28F /* UpdateMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateMessageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +137,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7D90381C26891A00654258 /* AssetsLibrary.framework in Frameworks */,
+				DF3FF2051C2FE53000C55D84 /* AVFoundation.framework in Frameworks */,
+				DF3FF1C71C2EB15700C55D84 /* libdsm.a in Frameworks */,
+				DF3FF1C81C2EB15700C55D84 /* libtasn1.a in Frameworks */,
+				DF3FF19C1C2EA2A100C55D84 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +161,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF3FF19D1C2EA52C00C55D84 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DF3FF2011C2ED84500C55D84 /* SeverListViewController.h */,
+				DF3FF2021C2ED84500C55D84 /* SeverListViewController.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		DF3FF1A61C2EB15700C55D84 /* TOSMBClient */ = {
+			isa = PBXGroup;
+			children = (
+				DF3FF1A91C2EB15700C55D84 /* libdsm */,
+				DF3FF1B71C2EB15700C55D84 /* TONetBIOSNameService.h */,
+				DF3FF1B81C2EB15700C55D84 /* TONetBIOSNameService.m */,
+				DF3FF1B91C2EB15700C55D84 /* TONetBIOSNameServiceEntry.h */,
+				DF3FF1BA1C2EB15700C55D84 /* TONetBIOSNameServiceEntry.m */,
+				DF3FF1BB1C2EB15700C55D84 /* TOSMBClient.h */,
+				DF3FF1BC1C2EB15700C55D84 /* TOSMBConstants.h */,
+				DF3FF1BD1C2EB15700C55D84 /* TOSMBConstants.m */,
+				DF3FF1BE1C2EB15700C55D84 /* TOSMBExifDownloadTask.h */,
+				DF3FF1BF1C2EB15700C55D84 /* TOSMBExifDownloadTask.m */,
+				DF3FF1C01C2EB15700C55D84 /* TOSMBSession.h */,
+				DF3FF1C11C2EB15700C55D84 /* TOSMBSession.m */,
+				DF3FF1C21C2EB15700C55D84 /* TOSMBSessionDownloadTask.h */,
+				DF3FF1C31C2EB15700C55D84 /* TOSMBSessionDownloadTask.m */,
+				DF3FF1C41C2EB15700C55D84 /* TOSMBSessionFile.h */,
+				DF3FF1C51C2EB15700C55D84 /* TOSMBSessionFile.m */,
+			);
+			path = TOSMBClient;
+			sourceTree = "<group>";
+		};
+		DF3FF1A91C2EB15700C55D84 /* libdsm */ = {
+			isa = PBXGroup;
+			children = (
+				DF3FF1AA1C2EB15700C55D84 /* bdsm */,
+				DF3FF1B51C2EB15700C55D84 /* libdsm.a */,
+				DF3FF1B61C2EB15700C55D84 /* libtasn1.a */,
+			);
+			path = libdsm;
+			sourceTree = "<group>";
+		};
+		DF3FF1AA1C2EB15700C55D84 /* bdsm */ = {
+			isa = PBXGroup;
+			children = (
+				DF3FF1AB1C2EB15700C55D84 /* bdsm.h */,
+				DF3FF1AC1C2EB15700C55D84 /* libtasn1.h */,
+				DF3FF1AD1C2EB15700C55D84 /* netbios_defs.h */,
+				DF3FF1AE1C2EB15700C55D84 /* netbios_ns.h */,
+				DF3FF1AF1C2EB15700C55D84 /* smb_defs.h */,
+				DF3FF1B01C2EB15700C55D84 /* smb_file.h */,
+				DF3FF1B11C2EB15700C55D84 /* smb_session.h */,
+				DF3FF1B21C2EB15700C55D84 /* smb_share.h */,
+				DF3FF1B31C2EB15700C55D84 /* smb_stat.h */,
+				DF3FF1B41C2EB15700C55D84 /* smb_types.h */,
+			);
+			path = bdsm;
+			sourceTree = "<group>";
+		};
+		DF3FF1D01C2EC4DC00C55D84 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				DF3FF1FE1C2EC55F00C55D84 /* LoadingView.h */,
+				DF3FF1FF1C2EC55F00C55D84 /* LoadingView.m */,
+				DFA35B401C32C43700C8C28F /* UpdateMessageView.h */,
+				DFA35B411C32C43700C8C28F /* UpdateMessageView.m */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		DF3FF2091C2FF0FA00C55D84 /* BackgroundRunner */ = {
+			isa = PBXGroup;
+			children = (
+				DF3FF2061C2FF02200C55D84 /* BackgroundRunner.h */,
+				DF3FF2071C2FF02200C55D84 /* BackgroundRunner.m */,
+			);
+			name = BackgroundRunner;
+			sourceTree = "<group>";
+		};
 		DF7D902D1C24F11D00654258 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +263,10 @@
 		DF8731671C24251400B755FB = {
 			isa = PBXGroup;
 			children = (
-				DF7D90371C26891A00654258 /* AssetsLibrary.framework */,
+				DF8B9A631C36E50B0000B911 /* image.png */,
+				DF3FF2041C2FE53000C55D84 /* AVFoundation.framework */,
+				DF3FF1A61C2EB15700C55D84 /* TOSMBClient */,
+				DF3FF19B1C2EA2A100C55D84 /* libiconv.tbd */,
 				DF7D902E1C24F13B00654258 /* icons */,
 				DF7D902D1C24F11D00654258 /* images */,
 				DF8731A61C2425D800B755FB /* RootViewController.h */,
@@ -154,6 +291,9 @@
 		DF8731721C24251400B755FB /* PictureManager */ = {
 			isa = PBXGroup;
 			children = (
+				DF3FF2091C2FF0FA00C55D84 /* BackgroundRunner */,
+				DF3FF1D01C2EC4DC00C55D84 /* Activity */,
+				DF3FF19D1C2EA52C00C55D84 /* Network */,
 				DF8731761C24251500B755FB /* AppDelegate.h */,
 				DF8731771C24251500B755FB /* AppDelegate.m */,
 				DF8731AF1C24318900B755FB /* TimeAxisViewController.h */,
@@ -314,6 +454,7 @@
 				DF8731801C24251500B755FB /* Assets.xcassets in Resources */,
 				DF7D90341C25849E00654258 /* huaduobg.png in Resources */,
 				DF7D90301C24F43300654258 /* DefaultBackgroundImage.png in Resources */,
+				DF8B9A641C36E50B0000B911 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,12 +480,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF8731BA1C2442E500B755FB /* ScrollView.m in Sources */,
+				DF3FF1CF1C2EB15700C55D84 /* TOSMBSessionFile.m in Sources */,
 				DF8731781C24251500B755FB /* AppDelegate.m in Sources */,
 				DF8731751C24251500B755FB /* main.m in Sources */,
+				DF3FF1CA1C2EB15700C55D84 /* TONetBIOSNameServiceEntry.m in Sources */,
+				DF3FF2001C2EC55F00C55D84 /* LoadingView.m in Sources */,
 				DF8731AE1C24316000B755FB /* BasicViewController.m in Sources */,
 				DF8731B11C24318900B755FB /* TimeAxisViewController.m in Sources */,
+				DF3FF1CD1C2EB15700C55D84 /* TOSMBSession.m in Sources */,
+				DF3FF2031C2ED84500C55D84 /* SeverListViewController.m in Sources */,
+				DF3FF1CE1C2EB15700C55D84 /* TOSMBSessionDownloadTask.m in Sources */,
+				DF3FF1C91C2EB15700C55D84 /* TONetBIOSNameService.m in Sources */,
 				DF8731A81C2425D800B755FB /* RootViewController.m in Sources */,
+				DFA35B421C32C43700C8C28F /* UpdateMessageView.m in Sources */,
+				DF3FF2081C2FF02200C55D84 /* BackgroundRunner.m in Sources */,
+				DF3FF1CB1C2EB15700C55D84 /* TOSMBConstants.m in Sources */,
 				DF84FEA51C2ABAC300D7CF9E /* PictureInfo.m in Sources */,
+				DF3FF1CC1C2EB15700C55D84 /* TOSMBExifDownloadTask.m in Sources */,
 				DF84FEA21C2AB9F900D7CF9E /* DayPictureCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,8 +628,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PictureManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TOSMBClient/libdsm",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = JiangShangXiu.PictureManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -487,8 +644,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PictureManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TOSMBClient/libdsm",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = JiangShangXiu.PictureManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

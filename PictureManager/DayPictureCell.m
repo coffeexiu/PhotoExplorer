@@ -70,6 +70,13 @@
     return _shotDateLabel;
 }
 
+//返回2015-12-02这种格式的字符串
+-(NSString *)formatDate:(NSDate *)date
+{
+    NSDateFormatter * formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"YYYY-MM-dd"];
+    return [formatter stringFromDate:date];
+}
 
 //重写数据源setter方法
 -(void)setDayWallPicturesArray:(NSMutableArray *)dayWallPicturesArray
@@ -87,6 +94,10 @@
     
     self.backgroundImageView.frame = CGRectMake(0, 0, WIDTH, WIDTH);
 
+    PictureInfo * pictureInfo = _dayWallPicturesArray[0];
+    
+    self.shotDateLabel.text = [self formatDate:pictureInfo.shotDate];
+    NSLog(@"%@",pictureInfo.thumbnailPath);
     
     for (NSInteger i=0; i<count; i++) {
         UIImageView * view = [[UIImageView alloc] init];
@@ -94,7 +105,18 @@
         view.backgroundColor = [UIColor colorWithRed:arc4random()%256/255.0 green:arc4random()%256/255.0 blue:arc4random()%256/255.0 alpha:1.0];
         view.tag = 10;
         
-        [_imageViewArray addObject:view];
+        view.image = [UIImage imageNamed:@"image"];
+        
+        NSFileManager * manager = [NSFileManager defaultManager];
+        NSString * filepath = ((PictureInfo *)_dayWallPicturesArray[i]).thumbnailPath;
+        if (filepath && ![filepath isEqualToString:@""] && [manager fileExistsAtPath:filepath]) {
+            view.image = [UIImage imageWithContentsOfFile:((PictureInfo *)_dayWallPicturesArray[i]).thumbnailPath];
+            view.contentMode = UIViewContentModeScaleAspectFill;
+            view.clipsToBounds = YES;
+            NSLog(@"%@",((PictureInfo *)_dayWallPicturesArray[i]).thumbnailPath);
+        }        
+        
+        [self.imageViewArray addObject:view];
         [self.contentView addSubview:view];
     }
     
@@ -143,7 +165,6 @@
     
     self.backgroundImageView.frame = CGRectMake(0, 0, WIDTH, _cellHeight);
     self.titleLabel.text = @"标题";
-    self.shotDateLabel.text = @"2015-12-25";
 }
 
 

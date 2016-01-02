@@ -14,6 +14,8 @@
 //每日精选封面照片
 @property (nonatomic,strong) NSMutableArray * dayWallPicturesArray;
 
+@property (nonatomic,strong) NSData * imageData;
+
 //返回cell行高
 @property (nonatomic,assign) CGFloat cellHeight;
 

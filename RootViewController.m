@@ -35,6 +35,7 @@
     {
         Class class = NSClassFromString(classNameArray[i]);
         BasicViewController * bc = [[class alloc]init];
+        
         //创建导航控制器
         UINavigationController * nvc = [[UINavigationController alloc] initWithRootViewController:bc];
 
